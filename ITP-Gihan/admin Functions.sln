@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin Functions", "admin Functions\admin Functions.csproj", "{8235B342-2870-44F9-9A25-6737C95D0DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newHotel", "..\ITP-Tharindu\newHotel\newHotel.csproj", "{E08FDACB-CB7E-418C-BEC3-E61CC007B23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitchen Management Sysytem", "..\Inventory\Kitchen Management Sysytem\Kitchen Management Sysytem\Kitchen Management Sysytem.csproj", "{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08FDACB-CB7E-418C-BEC3-E61CC007B23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08FDACB-CB7E-418C-BEC3-E61CC007B23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08FDACB-CB7E-418C-BEC3-E61CC007B23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08FDACB-CB7E-418C-BEC3-E61CC007B23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
