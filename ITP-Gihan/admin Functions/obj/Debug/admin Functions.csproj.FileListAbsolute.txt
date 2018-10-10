@@ -65,3 +65,9 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\mysql.data.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\PrinterUtility.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\Zen.Barcode.Core.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmReceptionist.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmDining.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmInventory.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.dll
+D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.dll
+D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.xml
+D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.xml

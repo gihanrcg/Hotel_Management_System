@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kitchen_Management_Sysytem
+namespace AttendanceRecorder
 {
     static class Program
     {

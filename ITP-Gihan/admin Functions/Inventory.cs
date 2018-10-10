@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kitchen_Management_Sysytem
+namespace AttendanceRecorder
 {
     public partial class frmInventory : Form
     {

@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace AttendanceRecorder
 {
-    public partial class EmployeeNotifications : Form
+    public partial class EmployeeNotifications : MetroFramework.Forms.MetroForm
     {
         String employeeID = null;
         String notificationID = null;

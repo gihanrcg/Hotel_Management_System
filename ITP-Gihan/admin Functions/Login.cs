@@ -62,7 +62,12 @@ namespace AttendanceRecorder
                                     frmReceptionist f = new frmReceptionist(txtEmployeeID.Text);
                                     f.Show();
                                     this.Hide();
-
+                                }
+                                else if (jobRole.Equals("Cashier"))
+                                {
+                                    frmDining f = new frmDining(txtEmployeeID.Text);
+                                    f.Show();
+                                    this.Hide();
                                 }
                             }
                             else

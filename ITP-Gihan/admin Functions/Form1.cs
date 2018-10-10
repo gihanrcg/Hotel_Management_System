@@ -103,6 +103,11 @@ namespace AttendanceRecorder
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            System.Timers.Timer timerClock = new System.Timers.Timer();
+            timerClock.Interval = 1000;
+            timerClock.Elapsed += timerClock_Elapsed;
+            timerClock.Start();
+
             imgNotification.Visible = false;
             lblRequestCount.Visible = false;
             initTimer();
@@ -145,6 +150,16 @@ namespace AttendanceRecorder
             pnlViewDetailsofCustomers.Hide();
             
 
+        }
+
+        private void timerClock_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            circularProgressBar1.Invoke((MethodInvoker)delegate
+            {
+                circularProgressBar1.Text = DateTime.Now.ToString("hh:mm:ss");
+                circularProgressBar1.SubscriptText = DateTime.Now.ToString("tt");
+
+            });
         }
 
 
@@ -864,6 +879,19 @@ namespace AttendanceRecorder
 
         private void comboJobRole_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void metroButton21_ClientSizeChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            frmReceptionist f = new frmReceptionist(loggedEmployeeID);
+            f.Show();
+            this.Close();
 
         }
 

@@ -1,0 +1,115 @@
+C:\Work\Dining\Dining\bin\Debug\Dining.exe.config
+C:\Work\Dining\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
+C:\Work\Dining\Dining\obj\Debug\Dining.Properties.Resources.resources
+C:\Work\Dining\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
+C:\Work\Dining\Dining\bin\Debug\Dining.exe
+C:\Work\Dining\Dining\bin\Debug\Dining.pdb
+C:\Work\Dining\Dining\bin\Debug\MySql.Data.dll
+C:\Work\Dining\Dining\obj\Debug\Dining.exe
+C:\Work\Dining\Dining\obj\Debug\Dining.pdb
+C:\Work\Dining\Dining\obj\Debug\Dining.Bill.resources
+C:\Work\Dining\Dining\obj\Debug\insert.Form.resources
+C:\Work\Dining\Dining\obj\Debug\RdlCompile.cache
+C:\Work\Dining\Dining\obj\Debug\RdlCompile.compiled
+C:\Work\Dining\Dining\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Work\Dining\Dining\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Work\Dining\Dining\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Work\Dining\Dining\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\Dining.exe.config
+C:\Dining\Dining\obj\Debug\Dining.exe
+C:\Dining\Dining\obj\Debug\Dining.pdb
+C:\Dining\Dining\bin\Debug\Dining.exe
+C:\Dining\Dining\bin\Debug\Dining.pdb
+C:\Dining\Dining\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Dining\Dining\bin\Debug\MySql.Data.dll
+C:\Dining\Dining\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Dining\Dining\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Dining\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
+C:\Dining\Dining\obj\Debug\Dining.Bill.resources
+C:\Dining\Dining\obj\Debug\insert.Form.resources
+C:\Dining\Dining\obj\Debug\Dining.Properties.Resources.resources
+C:\Dining\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
+C:\Dining\Dining\obj\Debug\RdlCompile.cache
+C:\Dining\Dining\obj\Debug\RdlCompile.compiled
+F:\Manori\ITP\Dining\bin\Debug\Dining.exe.config
+F:\Manori\ITP\Dining\obj\Debug\Dining.exe
+F:\Manori\ITP\Dining\obj\Debug\Dining.pdb
+C:\New folder\ITP\Dining\bin\Debug\Dining.exe.config
+C:\New folder\ITP\Dining\obj\Debug\Dining.exe
+C:\New folder\ITP\Dining\obj\Debug\Dining.pdb
+C:\New folder\ITP\Dining\bin\Debug\Dining.exe
+C:\New folder\ITP\Dining\bin\Debug\Dining.pdb
+C:\New folder\ITP\Dining\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\New folder\ITP\Dining\bin\Debug\MySql.Data.dll
+C:\New folder\ITP\Dining\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\New folder\ITP\Dining\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\New folder\ITP\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
+C:\New folder\ITP\Dining\obj\Debug\Dining.Bill.resources
+C:\New folder\ITP\Dining\obj\Debug\insert.Form.resources
+C:\New folder\ITP\Dining\obj\Debug\Dining.Properties.Resources.resources
+C:\New folder\ITP\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
+C:\New folder\ITP\Dining\obj\Debug\RdlCompile.cache
+C:\New folder\ITP\Dining\obj\Debug\RdlCompile.compiled
+C:\ITP updated\ITP\Dining\bin\Debug\Dining.exe.config
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.exe
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.pdb
+C:\ITP updated\ITP\Dining\bin\Debug\Dining.exe
+C:\ITP updated\ITP\Dining\bin\Debug\Dining.pdb
+C:\ITP updated\ITP\Dining\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\ITP updated\ITP\Dining\bin\Debug\MySql.Data.dll
+C:\ITP updated\ITP\Dining\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\ITP updated\ITP\Dining\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.Bill.resources
+C:\ITP updated\ITP\Dining\obj\Debug\insert.Form.resources
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.Properties.Resources.resources
+C:\ITP updated\ITP\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
+C:\ITP updated\ITP\Dining\obj\Debug\RdlCompile.cache
+C:\ITP updated\ITP\Dining\obj\Debug\RdlCompile.compiled
+D:\ITP_Final_System\Manori\Dining\bin\Debug\Dining.exe.config
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.exe
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.pdb
+D:\ITP_Final_System\Manori\Dining\bin\Debug\Dining.exe
+D:\ITP_Final_System\Manori\Dining\bin\Debug\Dining.pdb
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.Bill.resources
+D:\ITP_Final_System\Manori\Dining\obj\Debug\insert.Form.resources
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.Properties.Resources.resources
+D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
+D:\ITP_Final_System\Manori\Dining\obj\Debug\RdlCompile.cache
+D:\ITP_Final_System\Manori\Dining\obj\Debug\RdlCompile.compiled

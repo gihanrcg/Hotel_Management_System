@@ -40,17 +40,17 @@
             this.dgvNotifications.AllowUserToDeleteRows = false;
             this.dgvNotifications.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvNotifications.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvNotifications.BackgroundColor = System.Drawing.Color.White;
             this.dgvNotifications.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNotifications.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
-            this.dgvNotifications.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvNotifications.Location = new System.Drawing.Point(0, 0);
+            this.dgvNotifications.Location = new System.Drawing.Point(23, 63);
             this.dgvNotifications.MultiSelect = false;
             this.dgvNotifications.Name = "dgvNotifications";
             this.dgvNotifications.ReadOnly = true;
             this.dgvNotifications.RowTemplate.Height = 24;
             this.dgvNotifications.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvNotifications.Size = new System.Drawing.Size(1069, 513);
+            this.dgvNotifications.Size = new System.Drawing.Size(973, 436);
             this.dgvNotifications.TabIndex = 0;
             this.dgvNotifications.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNotifications_CellContentClick);
             // 
