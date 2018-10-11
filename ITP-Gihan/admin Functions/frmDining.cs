@@ -12,6 +12,7 @@ using MySql.Data.MySqlClient;
 using System.Drawing.Drawing2D;
 using System.Drawing.Printing;
 using System.Text.RegularExpressions;
+using Microsoft.Reporting.WinForms;
 
 
 namespace AttendanceRecorder
@@ -620,7 +621,10 @@ namespace AttendanceRecorder
             //bill b = new bill();
             //b.show();
 
+     
 
+            ManoriBillViewer bv = new ManoriBillViewer(lblTotal.Text);
+            bv.Show();
 
 
 

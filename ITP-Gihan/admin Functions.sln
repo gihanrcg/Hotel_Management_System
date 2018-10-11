@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin Functions", "admin Functions\admin Functions.csproj", "{8235B342-2870-44F9-9A25-6737C95D0DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitchen Management Sysytem", "..\Inventory\Kitchen Management Sysytem\Kitchen Management Sysytem\Kitchen Management Sysytem.csproj", "{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dining", "..\Manori\Dining\Dining.csproj", "{D70DD8D6-E77F-4916-BB73-D7AC4EABC3BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bar", "..\Bar\Bar\Bar.csproj", "{32817122-12D0-4237-A49D-D756FBF218F9}"
@@ -23,10 +21,6 @@ Global
 		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8235B342-2870-44F9-9A25-6737C95D0DCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D70DD8D6-E77F-4916-BB73-D7AC4EABC3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D70DD8D6-E77F-4916-BB73-D7AC4EABC3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70DD8D6-E77F-4916-BB73-D7AC4EABC3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
