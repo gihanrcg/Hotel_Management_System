@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Reporting.WinForms;
 
-namespace WindowsFormsApplication2
+namespace AttendanceRecorder
 {
     public partial class PaysheetViewer : Form
     {

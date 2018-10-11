@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace AttendanceRecorder
 {
     partial class PaysheetViewer
     {
@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hotelDataSet = new WindowsFormsApplication2.hotelDataSet();
+            this.hotelDataSet = new AttendanceRecorder.hotelDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.employeeTableAdapter = new WindowsFormsApplication2.hotelDataSetTableAdapters.employeeTableAdapter();
+            this.employeeTableAdapter = new AttendanceRecorder.hotelDataSetTableAdapters.employeeTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hotelDataSet)).BeginInit();
             this.SuspendLayout();

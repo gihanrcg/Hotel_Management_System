@@ -63,6 +63,7 @@
             this.dgvBarManage.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBarManage.Size = new System.Drawing.Size(1059, 455);
             this.dgvBarManage.TabIndex = 0;
+            this.dgvBarManage.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBarManage_CellContentClick);
             this.dgvBarManage.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvBarManage_CellMouseClick);
             // 
             // label1

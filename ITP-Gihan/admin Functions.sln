@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newHotel", "..\Tharindu\new
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitchen Management Sysytem", "..\Inventory\Kitchen Management Sysytem\Kitchen Management Sysytem.csproj", "{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeFunctions", "..\Kasun\WindowsFormsApplication2\EmployeeFunctions.csproj", "{472B5FB5-AC73-4269-AB6B-2DEC76E03CDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A23C2BE-2478-46DB-A3BE-234AE9D59C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472B5FB5-AC73-4269-AB6B-2DEC76E03CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472B5FB5-AC73-4269-AB6B-2DEC76E03CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472B5FB5-AC73-4269-AB6B-2DEC76E03CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472B5FB5-AC73-4269-AB6B-2DEC76E03CDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

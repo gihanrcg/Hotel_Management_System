@@ -20,15 +20,20 @@ namespace AttendanceRecorder
 
         AutoCompleteStringCollection namesCollection = new AutoCompleteStringCollection();
 
-        private String loggedEmployeeID;
-
+        private String loggedEmployeeID = null;
+        private String username = null;
+        private String Jobrole = null;
 
         public string employeeID
         {
             get { return txtEmployeeID.Text; }
             set { txtEmployeeID.Text = value; }
         }
-
+        public Form1(String empID)
+        {
+            this.loggedEmployeeID = empID;
+            InitializeComponent();
+        }
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +41,8 @@ namespace AttendanceRecorder
         public Form1(String username, String Jobrole, String employeeID)
         {
             InitializeComponent();
+            this.username = username;
+            this.Jobrole = Jobrole;
             this.lblLoggedas.Text = username + " : " + Jobrole;
             this.loggedEmployeeID = employeeID;
 
@@ -896,6 +903,19 @@ namespace AttendanceRecorder
             f.Show();
             this.Close();
 
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Employee em = new Employee(username,Jobrole,loggedEmployeeID);
+            em.Show();
+            
+        }
+
+        private void btnGlobal_Click(object sender, EventArgs e)
+        {
+            manageGlobalValues gv = new manageGlobalValues();
+            gv.Show();
         }
 
     }

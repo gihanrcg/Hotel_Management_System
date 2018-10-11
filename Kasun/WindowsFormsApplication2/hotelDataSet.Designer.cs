@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace WindowsFormsApplication2 {
+namespace AttendanceRecorder {
     
     
     /// <summary>
@@ -2859,7 +2859,7 @@ namespace WindowsFormsApplication2 {
         }
     }
 }
-namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
+namespace AttendanceRecorder.hotelDataSetTableAdapters {
     
     
     /// <summary>
@@ -3436,7 +3436,7 @@ namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication2.Properties.Settings.Default.hotelConnectionString;
+            this._connection.ConnectionString = global::AttendanceRecorder.Properties.Settings.Default.hotelConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4210,7 +4210,7 @@ namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication2.Properties.Settings.Default.hotelConnectionString;
+            this._connection.ConnectionString = global::AttendanceRecorder.Properties.Settings.Default.hotelConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4764,7 +4764,7 @@ namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication2.Properties.Settings.Default.hotelConnectionString;
+            this._connection.ConnectionString = global::AttendanceRecorder.Properties.Settings.Default.hotelConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5150,7 +5150,7 @@ namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication2.Properties.Settings.Default.hotelConnectionString;
+            this._connection.ConnectionString = global::AttendanceRecorder.Properties.Settings.Default.hotelConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5632,7 +5632,7 @@ namespace WindowsFormsApplication2.hotelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication2.Properties.Settings.Default.hotelConnectionString;
+            this._connection.ConnectionString = global::AttendanceRecorder.Properties.Settings.Default.hotelConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

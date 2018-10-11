@@ -69,7 +69,7 @@ namespace AttendanceRecorder
             }
             catch (Exception e)
             {
-                MessageBox.Show("Your position is already added");
+                MessageBox.Show("Your item is already added");
             }
         }
         private void delete(String stockID)
@@ -163,6 +163,11 @@ namespace AttendanceRecorder
         private void btnClear_Click(object sender, EventArgs e)
         {
             clear();
+        }
+
+        private void dgvBarManage_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
     }

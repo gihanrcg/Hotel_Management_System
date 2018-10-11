@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication2
+namespace AttendanceRecorder
 {
     public partial class Employee : Form
     {

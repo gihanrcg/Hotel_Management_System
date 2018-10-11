@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace AttendanceRecorder
 {
     partial class Employee
     {

@@ -124,7 +124,7 @@
             this.btnManageRooms = new System.Windows.Forms.Button();
             this.metroTile1 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnGlobal = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.pnlWelcome = new System.Windows.Forms.Panel();
             this.imgNotification = new System.Windows.Forms.PictureBox();
@@ -1261,6 +1261,7 @@
             this.button1.TabIndex = 52;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tileManageEmployee
@@ -1382,21 +1383,22 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // btnGlobal
             // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(35, 746);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.button8.Size = new System.Drawing.Size(360, 82);
-            this.button8.TabIndex = 61;
-            this.button8.Text = "ex";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnGlobal.BackColor = System.Drawing.Color.DimGray;
+            this.btnGlobal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGlobal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGlobal.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGlobal.ForeColor = System.Drawing.Color.White;
+            this.btnGlobal.Location = new System.Drawing.Point(35, 746);
+            this.btnGlobal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGlobal.Name = "btnGlobal";
+            this.btnGlobal.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnGlobal.Size = new System.Drawing.Size(360, 82);
+            this.btnGlobal.TabIndex = 61;
+            this.btnGlobal.Text = "Global Values";
+            this.btnGlobal.UseVisualStyleBackColor = false;
+            this.btnGlobal.Click += new System.EventHandler(this.btnGlobal_Click);
             // 
             // button9
             // 
@@ -1411,8 +1413,9 @@
             this.button9.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.button9.Size = new System.Drawing.Size(360, 82);
             this.button9.TabIndex = 62;
-            this.button9.Text = "ex";
+            this.button9.Text = "Salary Management";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // pnlWelcome
             // 
@@ -1557,7 +1560,7 @@
             this.Controls.Add(this.btnWaitor);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnGlobal);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.btnManageRooms);
@@ -1690,7 +1693,7 @@
         private System.Windows.Forms.Button btnManageRooms;
         private System.Windows.Forms.Button metroTile1;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnGlobal;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAddEmployee;

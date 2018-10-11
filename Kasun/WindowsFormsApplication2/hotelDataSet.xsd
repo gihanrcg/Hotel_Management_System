@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication2.Properties.Settings.GlobalReference.Default.hotelConnectionString" Provider="MySql.Data.MySqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AttendanceRecorder.Properties.Settings.GlobalReference.Default.hotelConnectionString" Provider="MySql.Data.MySqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="employeeTableAdapter" GeneratorDataComponentClassName="employeeTableAdapter" Name="employee" UserDataComponentName="employeeTableAdapter">
@@ -362,7 +362,7 @@
   <xs:element name="hotelDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hotelDataSet" msprop:Generator_UserDSName="hotelDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="employee" msprop:Generator_TableClassName="employeeDataTable" msprop:Generator_TableVarName="tableemployee" msprop:Generator_TablePropName="employee" msprop:Generator_RowDeletingName="employeeRowDeleting" msprop:Generator_RowChangingName="employeeRowChanging" msprop:Generator_RowEvHandlerName="employeeRowChangeEventHandler" msprop:Generator_RowDeletedName="employeeRowDeleted" msprop:Generator_UserTableName="employee" msprop:Generator_RowChangedName="employeeRowChanged" msprop:Generator_RowEvArgName="employeeRowChangeEvent" msprop:Generator_RowClassName="employeeRow">
+        <xs:element name="employee" msprop:Generator_TableClassName="employeeDataTable" msprop:Generator_TableVarName="tableemployee" msprop:Generator_RowChangedName="employeeRowChanged" msprop:Generator_TablePropName="employee" msprop:Generator_RowDeletingName="employeeRowDeleting" msprop:Generator_RowChangingName="employeeRowChanging" msprop:Generator_RowEvHandlerName="employeeRowChangeEventHandler" msprop:Generator_RowDeletedName="employeeRowDeleted" msprop:Generator_RowClassName="employeeRow" msprop:Generator_UserTableName="employee" msprop:Generator_RowEvArgName="employeeRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="employeeNo" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnemployeeNo" msprop:Generator_ColumnPropNameInRow="employeeNo" msprop:Generator_ColumnPropNameInTable="employeeNoColumn" msprop:Generator_UserColumnName="employeeNo" type="xs:int" />
@@ -428,7 +428,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="employee_attendance" msprop:Generator_TableClassName="employee_attendanceDataTable" msprop:Generator_TableVarName="tableemployee_attendance" msprop:Generator_TablePropName="employee_attendance" msprop:Generator_RowDeletingName="employee_attendanceRowDeleting" msprop:Generator_RowChangingName="employee_attendanceRowChanging" msprop:Generator_RowEvHandlerName="employee_attendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="employee_attendanceRowDeleted" msprop:Generator_UserTableName="employee_attendance" msprop:Generator_RowChangedName="employee_attendanceRowChanged" msprop:Generator_RowEvArgName="employee_attendanceRowChangeEvent" msprop:Generator_RowClassName="employee_attendanceRow">
+        <xs:element name="employee_attendance" msprop:Generator_TableClassName="employee_attendanceDataTable" msprop:Generator_TableVarName="tableemployee_attendance" msprop:Generator_RowChangedName="employee_attendanceRowChanged" msprop:Generator_TablePropName="employee_attendance" msprop:Generator_RowDeletingName="employee_attendanceRowDeleting" msprop:Generator_RowChangingName="employee_attendanceRowChanging" msprop:Generator_RowEvHandlerName="employee_attendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="employee_attendanceRowDeleted" msprop:Generator_RowClassName="employee_attendanceRow" msprop:Generator_UserTableName="employee_attendance" msprop:Generator_RowEvArgName="employee_attendanceRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="No" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" />
@@ -446,7 +446,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="employeesalarydetails" msprop:Generator_TableClassName="employeesalarydetailsDataTable" msprop:Generator_TableVarName="tableemployeesalarydetails" msprop:Generator_TablePropName="employeesalarydetails" msprop:Generator_RowDeletingName="employeesalarydetailsRowDeleting" msprop:Generator_RowChangingName="employeesalarydetailsRowChanging" msprop:Generator_RowEvHandlerName="employeesalarydetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="employeesalarydetailsRowDeleted" msprop:Generator_UserTableName="employeesalarydetails" msprop:Generator_RowChangedName="employeesalarydetailsRowChanged" msprop:Generator_RowEvArgName="employeesalarydetailsRowChangeEvent" msprop:Generator_RowClassName="employeesalarydetailsRow">
+        <xs:element name="employeesalarydetails" msprop:Generator_TableClassName="employeesalarydetailsDataTable" msprop:Generator_TableVarName="tableemployeesalarydetails" msprop:Generator_RowChangedName="employeesalarydetailsRowChanged" msprop:Generator_TablePropName="employeesalarydetails" msprop:Generator_RowDeletingName="employeesalarydetailsRowDeleting" msprop:Generator_RowChangingName="employeesalarydetailsRowChanging" msprop:Generator_RowEvHandlerName="employeesalarydetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="employeesalarydetailsRowDeleted" msprop:Generator_RowClassName="employeesalarydetailsRow" msprop:Generator_UserTableName="employeesalarydetails" msprop:Generator_RowEvArgName="employeesalarydetailsRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type">
@@ -464,7 +464,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="globalvalues" msprop:Generator_TableClassName="globalvaluesDataTable" msprop:Generator_TableVarName="tableglobalvalues" msprop:Generator_TablePropName="globalvalues" msprop:Generator_RowDeletingName="globalvaluesRowDeleting" msprop:Generator_RowChangingName="globalvaluesRowChanging" msprop:Generator_RowEvHandlerName="globalvaluesRowChangeEventHandler" msprop:Generator_RowDeletedName="globalvaluesRowDeleted" msprop:Generator_UserTableName="globalvalues" msprop:Generator_RowChangedName="globalvaluesRowChanged" msprop:Generator_RowEvArgName="globalvaluesRowChangeEvent" msprop:Generator_RowClassName="globalvaluesRow">
+        <xs:element name="globalvalues" msprop:Generator_TableClassName="globalvaluesDataTable" msprop:Generator_TableVarName="tableglobalvalues" msprop:Generator_RowChangedName="globalvaluesRowChanged" msprop:Generator_TablePropName="globalvalues" msprop:Generator_RowDeletingName="globalvaluesRowDeleting" msprop:Generator_RowChangingName="globalvaluesRowChanging" msprop:Generator_RowEvHandlerName="globalvaluesRowChangeEventHandler" msprop:Generator_RowDeletedName="globalvaluesRowDeleted" msprop:Generator_RowClassName="globalvaluesRow" msprop:Generator_UserTableName="globalvalues" msprop:Generator_RowEvArgName="globalvaluesRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="valueID" msprop:Generator_ColumnVarNameInTable="columnvalueID" msprop:Generator_ColumnPropNameInRow="valueID" msprop:Generator_ColumnPropNameInTable="valueIDColumn" msprop:Generator_UserColumnName="valueID">
@@ -478,7 +478,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="leavesremaining" msprop:Generator_TableClassName="leavesremainingDataTable" msprop:Generator_TableVarName="tableleavesremaining" msprop:Generator_TablePropName="leavesremaining" msprop:Generator_RowDeletingName="leavesremainingRowDeleting" msprop:Generator_RowChangingName="leavesremainingRowChanging" msprop:Generator_RowEvHandlerName="leavesremainingRowChangeEventHandler" msprop:Generator_RowDeletedName="leavesremainingRowDeleted" msprop:Generator_UserTableName="leavesremaining" msprop:Generator_RowChangedName="leavesremainingRowChanged" msprop:Generator_RowEvArgName="leavesremainingRowChangeEvent" msprop:Generator_RowClassName="leavesremainingRow">
+        <xs:element name="leavesremaining" msprop:Generator_TableClassName="leavesremainingDataTable" msprop:Generator_TableVarName="tableleavesremaining" msprop:Generator_RowChangedName="leavesremainingRowChanged" msprop:Generator_TablePropName="leavesremaining" msprop:Generator_RowDeletingName="leavesremainingRowDeleting" msprop:Generator_RowChangingName="leavesremainingRowChanging" msprop:Generator_RowEvHandlerName="leavesremainingRowChangeEventHandler" msprop:Generator_RowDeletedName="leavesremainingRowDeleted" msprop:Generator_RowClassName="leavesremainingRow" msprop:Generator_UserTableName="leavesremaining" msprop:Generator_RowEvArgName="leavesremainingRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="employeeNo" msprop:Generator_ColumnVarNameInTable="columnemployeeNo" msprop:Generator_ColumnPropNameInRow="employeeNo" msprop:Generator_ColumnPropNameInTable="employeeNoColumn" msprop:Generator_UserColumnName="employeeNo" type="xs:int" />

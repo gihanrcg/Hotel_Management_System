@@ -149,6 +149,12 @@
       <DependentUpon>DasithReportViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="DBConnect.cs" />
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeIDPrint.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,11 +201,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>hotelDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="hotelDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hotelDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inventory.Designer.cs">
       <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kasunPaysheetViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kasunPaysheetViewer.Designer.cs">
+      <DependentUpon>kasunPaysheetViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="ManageBar.cs">
       <SubType>Form</SubType>
@@ -238,6 +255,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="manageGlobalValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageGlobalValues.Designer.cs">
+      <DependentUpon>manageGlobalValues.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageRooms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -249,6 +272,12 @@
     </Compile>
     <Compile Include="ManoriViewer.Designer.cs">
       <DependentUpon>ManoriViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaysheetViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaysheetViewer.Designer.cs">
+      <DependentUpon>PaysheetViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -299,6 +328,9 @@
     <EmbeddedResource Include="DasithReportViewer.resx">
       <DependentUpon>DasithReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeIDPrint.resx">
       <DependentUpon>EmployeeIDPrint.cs</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +352,9 @@
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kasunPaysheetViewer.resx">
+      <DependentUpon>kasunPaysheetViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageBar.resx">
       <DependentUpon>ManageBar.cs</DependentUpon>
     </EmbeddedResource>
@@ -338,12 +373,19 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="manageGlobalValues.resx">
+      <DependentUpon>manageGlobalValues.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageRooms.resx">
       <DependentUpon>ManageRooms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManoriBill.rdlc" />
     <EmbeddedResource Include="ManoriViewer.resx">
       <DependentUpon>ManoriViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paysheet.rdlc" />
+    <EmbeddedResource Include="PaysheetViewer.resx">
+      <DependentUpon>PaysheetViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -411,6 +453,17 @@
     </None>
     <None Include="hotelDataSet1.xss">
       <DependentUpon>hotelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet2.xsc">
+      <DependentUpon>hotelDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hotelDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hotelDataSet2.xss">
+      <DependentUpon>hotelDataSet2.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
