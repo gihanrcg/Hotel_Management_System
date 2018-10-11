@@ -72,3 +72,44 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.xml
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.xml
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmBar.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\admin Functions.exe.config
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\admin Functions.exe
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\admin Functions.pdb
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\admin Functions.exe
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\admin Functions.pdb
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\MetroFramework.Design.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\MetroFramework.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\MetroFramework.Fonts.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\PrinterUtility.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\Zen.Barcode.Core.dll
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.xml
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.xml
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\admin Functions.csprojResolveAssemblyReference.cache
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.AttendenceRecorder.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.availabil.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.billPrint.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ChangePassword.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ChatRoom.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeIDPrint.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeNotifications.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmBar.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmDining.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmReceptionist.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.GenerateQuotaions.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmInventory.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageDrinks.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageEmployeePositions.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeProfile.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.Form1.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.Login.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageRooms.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.Properties.Resources.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ScanBarcode.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ScanBarcodeForAttendence.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.SendMail.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.splashScreen.resources
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\admin Functions.csproj.GenerateResource.Cache
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\RdlCompile.cache
+D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\RdlCompile.compiled
