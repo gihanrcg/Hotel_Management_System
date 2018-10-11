@@ -144,6 +144,12 @@
     <Compile Include="EmployeeNotifications.Designer.cs">
       <DependentUpon>EmployeeNotifications.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBar.Designer.cs">
+      <DependentUpon>frmBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDining.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -262,6 +268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeNotifications.resx">
       <DependentUpon>EmployeeNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBar.resx">
+      <DependentUpon>frmBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDining.resx">
       <DependentUpon>frmDining.cs</DependentUpon>

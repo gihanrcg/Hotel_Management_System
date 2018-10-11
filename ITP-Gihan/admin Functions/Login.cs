@@ -69,6 +69,12 @@ namespace AttendanceRecorder
                                     f.Show();
                                     this.Hide();
                                 }
+                                else if (jobRole.Equals("Bartender"))
+                                {
+                                    frmBar bar = new frmBar(txtEmployeeID.Text);
+                                    bar.Show();
+                                    this.Hide();
+                                }
                             }
                             else
                             {

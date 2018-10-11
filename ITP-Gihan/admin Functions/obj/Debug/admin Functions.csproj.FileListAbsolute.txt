@@ -71,3 +71,4 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.xml
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.xml
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmBar.resources

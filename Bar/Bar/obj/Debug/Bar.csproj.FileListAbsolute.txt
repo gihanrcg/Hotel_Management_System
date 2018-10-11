@@ -1,0 +1,13 @@
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\bin\Debug\Bar.exe.config
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.csprojResolveAssemblyReference.cache
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.Form1.resources
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.Properties.Resources.resources
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.csproj.GenerateResource.Cache
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\bin\Debug\Bar.exe
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\bin\Debug\Bar.pdb
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\bin\Debug\mysql.data.dll
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.exe
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.pdb
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.ReportView.resources
+C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.StockReportViewer.resources
