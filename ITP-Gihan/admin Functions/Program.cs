@@ -17,7 +17,7 @@ namespace AttendanceRecorder
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new AttendenceRecorder());
-            Application.Run(new splashScreen());
+            Application.Run(new ManageBar());
         }
     }
 }

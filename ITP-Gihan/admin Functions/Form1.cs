@@ -874,7 +874,8 @@ namespace AttendanceRecorder
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            ManageBar bar = new ManageBar();
+            bar.Show();
         }
 
         private void comboJobRole_SelectedIndexChanged(object sender, EventArgs e)

@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReceptionist));
             this.pnlNavigation = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.btnGeneratequotation = new System.Windows.Forms.Button();
             this.btnHallDetails = new System.Windows.Forms.Button();
             this.btnAvailability = new System.Windows.Forms.Button();
@@ -46,7 +48,7 @@
             this.txtNoofadults = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.txtNic = new System.Windows.Forms.TextBox();
+            this.txtNIC = new System.Windows.Forms.TextBox();
             this.lblcusid = new System.Windows.Forms.Label();
             this.cmbMrMrs = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,7 +84,6 @@
             this.cmbMrMsH = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtNIChall = new System.Windows.Forms.TextBox();
-            this.btnDeleteh = new System.Windows.Forms.Button();
             this.btnUpdateh = new System.Windows.Forms.Button();
             this.btnClearh = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -114,29 +115,29 @@
             this.txtFirstnamehall = new System.Windows.Forms.TextBox();
             this.lblHallbooking = new System.Windows.Forms.Label();
             this.pnlCancelReservation = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.pnlReport1 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCustomizeReport = new System.Windows.Forms.Button();
+            this.btnHallQReport = new System.Windows.Forms.Button();
+            this.btnRoomQReport = new System.Windows.Forms.Button();
             this.pnlNavigation.SuspendLayout();
             this.pnlRoombooking.SuspendLayout();
             this.pnlHallbooking.SuspendLayout();
             this.pnlCancelReservation.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.pnlReport1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlNavigation
             // 
             this.pnlNavigation.BackColor = System.Drawing.Color.Teal;
+            this.pnlNavigation.Controls.Add(this.button4);
             this.pnlNavigation.Controls.Add(this.btnGeneratequotation);
             this.pnlNavigation.Controls.Add(this.btnHallDetails);
             this.pnlNavigation.Controls.Add(this.btnAvailability);
@@ -151,6 +152,16 @@
             this.pnlNavigation.Size = new System.Drawing.Size(1330, 124);
             this.pnlNavigation.TabIndex = 0;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(926, 96);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // btnGeneratequotation
             // 
             this.btnGeneratequotation.BackColor = System.Drawing.Color.White;
@@ -160,6 +171,7 @@
             this.btnGeneratequotation.TabIndex = 8;
             this.btnGeneratequotation.Text = "Generate\r\nQuotation";
             this.btnGeneratequotation.UseVisualStyleBackColor = false;
+            this.btnGeneratequotation.Click += new System.EventHandler(this.btnGeneratequotation_Click);
             // 
             // btnHallDetails
             // 
@@ -175,6 +187,7 @@
             // btnAvailability
             // 
             this.btnAvailability.BackColor = System.Drawing.Color.White;
+            this.btnAvailability.Image = ((System.Drawing.Image)(resources.GetObject("btnAvailability.Image")));
             this.btnAvailability.Location = new System.Drawing.Point(11, 20);
             this.btnAvailability.Name = "btnAvailability";
             this.btnAvailability.Size = new System.Drawing.Size(139, 69);
@@ -187,6 +200,7 @@
             // btnCustomerdetail
             // 
             this.btnCustomerdetail.BackColor = System.Drawing.Color.White;
+            this.btnCustomerdetail.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerdetail.Image")));
             this.btnCustomerdetail.Location = new System.Drawing.Point(849, 20);
             this.btnCustomerdetail.Name = "btnCustomerdetail";
             this.btnCustomerdetail.Size = new System.Drawing.Size(139, 69);
@@ -199,6 +213,7 @@
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.White;
+            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.Location = new System.Drawing.Point(1259, 20);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(68, 69);
@@ -211,6 +226,7 @@
             // btnRoombook
             // 
             this.btnRoombook.BackColor = System.Drawing.Color.White;
+            this.btnRoombook.Image = ((System.Drawing.Image)(resources.GetObject("btnRoombook.Image")));
             this.btnRoombook.Location = new System.Drawing.Point(181, 20);
             this.btnRoombook.Name = "btnRoombook";
             this.btnRoombook.Size = new System.Drawing.Size(139, 69);
@@ -223,11 +239,12 @@
             // btnCancelreservation
             // 
             this.btnCancelreservation.BackColor = System.Drawing.Color.White;
+            this.btnCancelreservation.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelreservation.Image")));
             this.btnCancelreservation.Location = new System.Drawing.Point(524, 20);
             this.btnCancelreservation.Name = "btnCancelreservation";
             this.btnCancelreservation.Size = new System.Drawing.Size(139, 69);
             this.btnCancelreservation.TabIndex = 2;
-            this.btnCancelreservation.Text = "Cancel\r\nBooking";
+            this.btnCancelreservation.Text = "Room Arrangements";
             this.btnCancelreservation.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCancelreservation.UseVisualStyleBackColor = false;
             this.btnCancelreservation.Click += new System.EventHandler(this.btnCancelreservation_Click);
@@ -236,6 +253,7 @@
             // 
             this.btnProfile.AutoEllipsis = true;
             this.btnProfile.BackColor = System.Drawing.Color.White;
+            this.btnProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnProfile.Image")));
             this.btnProfile.Location = new System.Drawing.Point(1181, 20);
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.Size = new System.Drawing.Size(72, 69);
@@ -248,6 +266,7 @@
             // btnHallbook
             // 
             this.btnHallbook.BackColor = System.Drawing.Color.White;
+            this.btnHallbook.Image = ((System.Drawing.Image)(resources.GetObject("btnHallbook.Image")));
             this.btnHallbook.Location = new System.Drawing.Point(353, 20);
             this.btnHallbook.Name = "btnHallbook";
             this.btnHallbook.Size = new System.Drawing.Size(139, 69);
@@ -287,7 +306,7 @@
             this.pnlRoombooking.Controls.Add(this.txtNoofadults);
             this.pnlRoombooking.Controls.Add(this.btnUpdate);
             this.pnlRoombooking.Controls.Add(this.btnClear);
-            this.pnlRoombooking.Controls.Add(this.txtNic);
+            this.pnlRoombooking.Controls.Add(this.txtNIC);
             this.pnlRoombooking.Controls.Add(this.lblcusid);
             this.pnlRoombooking.Controls.Add(this.cmbMrMrs);
             this.pnlRoombooking.Controls.Add(this.label1);
@@ -323,7 +342,6 @@
             this.pnlRoombooking.Name = "pnlRoombooking";
             this.pnlRoombooking.Size = new System.Drawing.Size(1331, 635);
             this.pnlRoombooking.TabIndex = 1;
-            this.pnlRoombooking.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlRoombooking_Paint);
             // 
             // txtNoofadults
             // 
@@ -353,14 +371,13 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // txtNic
+            // txtNIC
             // 
-            this.txtNic.Location = new System.Drawing.Point(280, 316);
-            this.txtNic.Multiline = true;
-            this.txtNic.Name = "txtNic";
-            this.txtNic.Size = new System.Drawing.Size(229, 29);
-            this.txtNic.TabIndex = 85;
-            this.txtNic.Text = "\r\n\r\n";
+            this.txtNIC.Location = new System.Drawing.Point(280, 316);
+            this.txtNIC.Multiline = true;
+            this.txtNIC.Name = "txtNIC";
+            this.txtNIC.Size = new System.Drawing.Size(229, 29);
+            this.txtNIC.TabIndex = 85;
             // 
             // lblcusid
             // 
@@ -454,7 +471,6 @@
             this.txtMobile.Name = "txtMobile";
             this.txtMobile.Size = new System.Drawing.Size(214, 30);
             this.txtMobile.TabIndex = 73;
-            this.txtMobile.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // rbFemale
             // 
@@ -657,7 +673,6 @@
             this.pnlHallbooking.Controls.Add(this.cmbMrMsH);
             this.pnlHallbooking.Controls.Add(this.label17);
             this.pnlHallbooking.Controls.Add(this.txtNIChall);
-            this.pnlHallbooking.Controls.Add(this.btnDeleteh);
             this.pnlHallbooking.Controls.Add(this.btnUpdateh);
             this.pnlHallbooking.Controls.Add(this.btnClearh);
             this.pnlHallbooking.Controls.Add(this.label2);
@@ -723,15 +738,6 @@
             this.txtNIChall.Name = "txtNIChall";
             this.txtNIChall.Size = new System.Drawing.Size(213, 33);
             this.txtNIChall.TabIndex = 5;
-            // 
-            // btnDeleteh
-            // 
-            this.btnDeleteh.Location = new System.Drawing.Point(1075, 563);
-            this.btnDeleteh.Name = "btnDeleteh";
-            this.btnDeleteh.Size = new System.Drawing.Size(95, 35);
-            this.btnDeleteh.TabIndex = 85;
-            this.btnDeleteh.Text = "Delete";
-            this.btnDeleteh.UseVisualStyleBackColor = true;
             // 
             // btnUpdateh
             // 
@@ -1022,109 +1028,113 @@
             // 
             // pnlCancelReservation
             // 
-            this.pnlCancelReservation.Controls.Add(this.dataGridView1);
+            this.pnlCancelReservation.Controls.Add(this.button3);
+            this.pnlCancelReservation.Controls.Add(this.button2);
+            this.pnlCancelReservation.Controls.Add(this.button1);
             this.pnlCancelReservation.Controls.Add(this.button15);
             this.pnlCancelReservation.Controls.Add(this.textBox21);
-            this.pnlCancelReservation.Controls.Add(this.label39);
-            this.pnlCancelReservation.Controls.Add(this.comboBox6);
-            this.pnlCancelReservation.Controls.Add(this.label38);
             this.pnlCancelReservation.Location = new System.Drawing.Point(0, 126);
             this.pnlCancelReservation.Name = "pnlCancelReservation";
             this.pnlCancelReservation.Size = new System.Drawing.Size(1331, 632);
             this.pnlCancelReservation.TabIndex = 83;
             // 
-            // dataGridView1
+            // button3
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(106, 174);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1044, 359);
-            this.dataGridView1.TabIndex = 12;
+            this.button3.Location = new System.Drawing.Point(344, 245);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(89, 66);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // Column1
+            // button2
             // 
-            this.Column1.HeaderText = "RegNo";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 200;
+            this.button2.Location = new System.Drawing.Point(344, 144);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(89, 64);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // Column2
+            // button1
             // 
-            this.Column2.HeaderText = "ReservationType";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 200;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "ReservationNo";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 200;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "FromDate";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 200;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "ToDate";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 200;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(579, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(153, 29);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(752, 100);
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(750, 49);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(160, 26);
+            this.button15.Size = new System.Drawing.Size(160, 29);
             this.button15.TabIndex = 11;
             this.button15.Text = "View all";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(495, 100);
+            this.textBox21.Location = new System.Drawing.Point(373, 49);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(169, 26);
+            this.textBox21.Size = new System.Drawing.Size(169, 29);
             this.textBox21.TabIndex = 10;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(407, 103);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(59, 17);
-            this.label39.TabIndex = 9;
-            this.label39.Text = "Search";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(217, 100);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(149, 24);
-            this.comboBox6.TabIndex = 8;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(122, 103);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(76, 17);
-            this.label38.TabIndex = 7;
-            this.label38.Text = "Searchby";
             // 
             // errorProvider1
             // 
             this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink;
             this.errorProvider1.ContainerControl = this;
+            // 
+            // pnlReport1
+            // 
+            this.pnlReport1.BackColor = System.Drawing.Color.White;
+            this.pnlReport1.Controls.Add(this.panel1);
+            this.pnlReport1.Controls.Add(this.btnCustomizeReport);
+            this.pnlReport1.Controls.Add(this.btnHallQReport);
+            this.pnlReport1.Controls.Add(this.btnRoomQReport);
+            this.pnlReport1.Location = new System.Drawing.Point(0, 124);
+            this.pnlReport1.Name = "pnlReport1";
+            this.pnlReport1.Size = new System.Drawing.Size(1331, 634);
+            this.pnlReport1.TabIndex = 88;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(1, 111);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1327, 523);
+            this.panel1.TabIndex = 3;
+            // 
+            // btnCustomizeReport
+            // 
+            this.btnCustomizeReport.Location = new System.Drawing.Point(373, 25);
+            this.btnCustomizeReport.Name = "btnCustomizeReport";
+            this.btnCustomizeReport.Size = new System.Drawing.Size(160, 74);
+            this.btnCustomizeReport.TabIndex = 2;
+            this.btnCustomizeReport.Text = "Customise Report";
+            this.btnCustomizeReport.UseVisualStyleBackColor = true;
+            this.btnCustomizeReport.Click += new System.EventHandler(this.btnCustomizeReport_Click);
+            // 
+            // btnHallQReport
+            // 
+            this.btnHallQReport.Location = new System.Drawing.Point(195, 25);
+            this.btnHallQReport.Name = "btnHallQReport";
+            this.btnHallQReport.Size = new System.Drawing.Size(160, 74);
+            this.btnHallQReport.TabIndex = 1;
+            this.btnHallQReport.Text = "Hall Quotation";
+            this.btnHallQReport.UseVisualStyleBackColor = true;
+            // 
+            // btnRoomQReport
+            // 
+            this.btnRoomQReport.Location = new System.Drawing.Point(11, 25);
+            this.btnRoomQReport.Name = "btnRoomQReport";
+            this.btnRoomQReport.Size = new System.Drawing.Size(160, 74);
+            this.btnRoomQReport.TabIndex = 0;
+            this.btnRoomQReport.Text = "Room Quotation";
+            this.btnRoomQReport.UseVisualStyleBackColor = true;
             // 
             // frmReceptionist
             // 
@@ -1132,9 +1142,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(1332, 759);
+            this.Controls.Add(this.pnlReport1);
+            this.Controls.Add(this.pnlCancelReservation);
             this.Controls.Add(this.pnlHallbooking);
             this.Controls.Add(this.pnlRoombooking);
-            this.Controls.Add(this.pnlCancelReservation);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlNavigation);
             this.Controls.Add(this.pnlWelcome1);
@@ -1152,8 +1163,8 @@
             this.pnlHallbooking.PerformLayout();
             this.pnlCancelReservation.ResumeLayout(false);
             this.pnlCancelReservation.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.pnlReport1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1187,7 +1198,7 @@
         private System.Windows.Forms.Panel pnlWelcome2;
         private System.Windows.Forms.Panel pnlWelcome1;
         private System.Windows.Forms.Label label2;
-        // private System.Windows.Forms.TextBox txtnoOfperson;
+       // private System.Windows.Forms.TextBox txtnoOfperson;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -1205,23 +1216,13 @@
         private System.Windows.Forms.Label lblHallbooking;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pnlCancelReservation;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label lblcusid;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnHallDetails;
         private System.Windows.Forms.Button btnGeneratequotation;
-        private System.Windows.Forms.Button btnDeleteh;
         private System.Windows.Forms.Button btnUpdateh;
         private System.Windows.Forms.Button btnClearh;
         private System.Windows.Forms.Label label17;
@@ -1239,7 +1240,7 @@
         public System.Windows.Forms.TextBox txtEmail;
         public System.Windows.Forms.TextBox txtAddress;
         public System.Windows.Forms.TextBox txtLastname;
-        public System.Windows.Forms.TextBox txtNic;
+        public System.Windows.Forms.TextBox txtNIC;
         public System.Windows.Forms.TextBox txtNoofadults;
         public System.Windows.Forms.Panel pnlRoombooking;
         public System.Windows.Forms.Panel pnlHallbooking;
@@ -1258,6 +1259,15 @@
         public System.Windows.Forms.DateTimePicker chkinHall;
         public System.Windows.Forms.TextBox txtMobilehall;
         public System.Windows.Forms.TextBox txtEmailhall;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel pnlReport1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnCustomizeReport;
+        private System.Windows.Forms.Button btnHallQReport;
+        private System.Windows.Forms.Button btnRoomQReport;
+        private System.Windows.Forms.Button button4;
     }
 }
 
