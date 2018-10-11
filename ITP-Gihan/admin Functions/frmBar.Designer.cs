@@ -28,18 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBar));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnorder = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.pnlHome = new System.Windows.Forms.Panel();
-            this.lblHome = new System.Windows.Forms.Label();
             this.pnlOrder = new System.Windows.Forms.Panel();
             this.btnliquor = new System.Windows.Forms.Button();
             this.btnbeverages = new System.Windows.Forms.Button();
             this.pnlbev = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
             this.btnBevOrder = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.cmbTypeBev = new System.Windows.Forms.ComboBox();
@@ -50,7 +49,6 @@
             this.lblbevqty = new System.Windows.Forms.Label();
             this.lblbevBrand = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.pnlStockHandle = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
@@ -83,6 +81,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnProfile = new System.Windows.Forms.Button();
             this.pnlLiquor = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -105,9 +105,9 @@
             this.txtCusID = new System.Windows.Forms.TextBox();
             this.btnConfirmOrder = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.btnProfile = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.pnlHome.SuspendLayout();
+            this.btnReport = new System.Windows.Forms.Button();
+            this.pnlHome = new System.Windows.Forms.Panel();
+            this.lblHome = new System.Windows.Forms.Label();
             this.pnlOrder.SuspendLayout();
             this.pnlbev.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numQtyBev)).BeginInit();
@@ -124,6 +124,7 @@
             this.pnlConfirmOrder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.pnlHome.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnorder
@@ -191,28 +192,6 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // pnlHome
-            // 
-            this.pnlHome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHome.BackgroundImage")));
-            this.pnlHome.Controls.Add(this.lblHome);
-            this.pnlHome.Location = new System.Drawing.Point(339, 99);
-            this.pnlHome.Name = "pnlHome";
-            this.pnlHome.Size = new System.Drawing.Size(1576, 951);
-            this.pnlHome.TabIndex = 4;
-            // 
-            // lblHome
-            // 
-            this.lblHome.AutoSize = true;
-            this.lblHome.BackColor = System.Drawing.Color.Transparent;
-            this.lblHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblHome.Font = new System.Drawing.Font("Segoe Script", 37.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHome.ForeColor = System.Drawing.Color.White;
-            this.lblHome.Location = new System.Drawing.Point(178, 285);
-            this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(1228, 100);
-            this.lblHome.TabIndex = 0;
-            this.lblHome.Text = "The Regent Country Club Mini Bar";
-            // 
             // pnlOrder
             // 
             this.pnlOrder.BackColor = System.Drawing.Color.PowderBlue;
@@ -269,6 +248,18 @@
             this.pnlbev.Name = "pnlbev";
             this.pnlbev.Size = new System.Drawing.Size(1576, 952);
             this.pnlbev.TabIndex = 2;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(453, 216);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(233, 44);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Customer ID";
             // 
             // btnBevOrder
             // 
@@ -392,18 +383,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(453, 216);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(233, 44);
-            this.label18.TabIndex = 12;
-            this.label18.Text = "Customer ID";
-            // 
             // txtCustomerID
             // 
             this.txtCustomerID.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -417,6 +396,7 @@
             // pnlStockHandle
             // 
             this.pnlStockHandle.BackColor = System.Drawing.Color.PowderBlue;
+            this.pnlStockHandle.Controls.Add(this.btnReport);
             this.pnlStockHandle.Controls.Add(this.label21);
             this.pnlStockHandle.Controls.Add(this.cmbVolume);
             this.pnlStockHandle.Controls.Add(this.label19);
@@ -811,6 +791,30 @@
             this.label15.TabIndex = 8;
             this.label15.Text = "MINI BAR";
             // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Red;
+            this.btnLogout.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnLogout.Location = new System.Drawing.Point(1421, 13);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(130, 55);
+            this.btnLogout.TabIndex = 14;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnProfile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnProfile.Location = new System.Drawing.Point(1285, 13);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(130, 55);
+            this.btnProfile.TabIndex = 14;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.UseVisualStyleBackColor = false;
+            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
+            // 
             // pnlLiquor
             // 
             this.pnlLiquor.BackColor = System.Drawing.Color.PowderBlue;
@@ -1025,14 +1029,14 @@
             this.dgvBill.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvBill.BackgroundColor = System.Drawing.Color.White;
             this.dgvBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBill.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBill.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvBill.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvBill.Location = new System.Drawing.Point(135, 132);
             this.dgvBill.Name = "dgvBill";
@@ -1079,29 +1083,37 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // btnProfile
+            // btnReport
             // 
-            this.btnProfile.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnProfile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnProfile.Location = new System.Drawing.Point(1285, 13);
-            this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(130, 55);
-            this.btnProfile.TabIndex = 14;
-            this.btnProfile.Text = "Profile";
-            this.btnProfile.UseVisualStyleBackColor = false;
-            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
+            this.btnReport.Location = new System.Drawing.Point(926, 204);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(183, 44);
+            this.btnReport.TabIndex = 13;
+            this.btnReport.Text = "View Report";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
-            // btnLogout
+            // pnlHome
             // 
-            this.btnLogout.BackColor = System.Drawing.Color.Red;
-            this.btnLogout.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLogout.Location = new System.Drawing.Point(1421, 13);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(130, 55);
-            this.btnLogout.TabIndex = 14;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            this.pnlHome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHome.BackgroundImage")));
+            this.pnlHome.Controls.Add(this.lblHome);
+            this.pnlHome.Location = new System.Drawing.Point(339, 99);
+            this.pnlHome.Name = "pnlHome";
+            this.pnlHome.Size = new System.Drawing.Size(1576, 951);
+            this.pnlHome.TabIndex = 4;
+            // 
+            // lblHome
+            // 
+            this.lblHome.AutoSize = true;
+            this.lblHome.BackColor = System.Drawing.Color.Transparent;
+            this.lblHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblHome.Font = new System.Drawing.Font("Segoe Script", 37.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.ForeColor = System.Drawing.Color.White;
+            this.lblHome.Location = new System.Drawing.Point(178, 285);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(1228, 100);
+            this.lblHome.TabIndex = 0;
+            this.lblHome.Text = "The Regent Country Club Mini Bar";
             // 
             // frmBar
             // 
@@ -1110,12 +1122,12 @@
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(1942, 1102);
             this.ControlBox = false;
+            this.Controls.Add(this.pnlStockHandle);
             this.Controls.Add(this.pnlConfirmOrder);
             this.Controls.Add(this.pnlAddItems);
             this.Controls.Add(this.pnlLiquor);
             this.Controls.Add(this.pnlbev);
             this.Controls.Add(this.pnlHome);
-            this.Controls.Add(this.pnlStockHandle);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlOrder);
             this.Controls.Add(this.button4);
@@ -1128,8 +1140,6 @@
             this.Text = "Mini Bar";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.pnlHome.ResumeLayout(false);
-            this.pnlHome.PerformLayout();
             this.pnlOrder.ResumeLayout(false);
             this.pnlbev.ResumeLayout(false);
             this.pnlbev.PerformLayout();
@@ -1154,6 +1164,8 @@
             this.pnlConfirmOrder.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBill)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.pnlHome.ResumeLayout(false);
+            this.pnlHome.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1237,6 +1249,7 @@
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnProfile;
+        private System.Windows.Forms.Button btnReport;
     }
 }
 

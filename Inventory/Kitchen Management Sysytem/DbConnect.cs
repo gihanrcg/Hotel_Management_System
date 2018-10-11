@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kitchen_Management_Sysytem
+namespace AttendanceRecorder
 {
     public class DBConnect : IDisposable
     {

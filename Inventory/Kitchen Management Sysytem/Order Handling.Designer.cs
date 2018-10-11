@@ -1,4 +1,4 @@
-﻿namespace Kitchen_Management_Sysytem
+﻿namespace AttendanceRecorder
 {
     partial class frmOrderHandling
     {

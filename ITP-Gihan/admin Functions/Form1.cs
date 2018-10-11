@@ -249,6 +249,8 @@ namespace AttendanceRecorder
                         if (d == DialogResult.Yes)
                         {
 
+
+
                             DateTime dt = txtDatetime.Value;
                             String date = dt.ToString("yyyy-MM-dd");
                             Console.WriteLine(en.EncryptString("1234"));
@@ -281,7 +283,7 @@ namespace AttendanceRecorder
 
                     catch (Exception ex)
                     {
-
+                        MessageBox.Show("Employee Alredy inserted. Try update or delete", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         Console.WriteLine(ex.StackTrace);
                     }
                 } 
@@ -818,7 +820,7 @@ namespace AttendanceRecorder
             else if (String.IsNullOrEmpty(txtpicpath.Text))
             {
                 errorProvider1.Clear();
-                errorProvider1.SetError(comboJobRole, "Please selecct a job role");
+                errorProvider1.SetError(comboJobRole, "Please selecct an image.");
             }
            
             else

@@ -15,12 +15,19 @@ namespace AttendanceRecorder
 {
     public partial class frmInventory : Form
     {
+        String EmployeeID = null;
 
         DialogResult dr;
         MySqlCommand cmd;
         public frmInventory()
         {
             InitializeComponent();
+
+        }
+        public frmInventory(String employeeID)
+        {
+            InitializeComponent();
+            this.EmployeeID = employeeID;
 
         }
         private void Inventory_Load(object sender, EventArgs e)
@@ -338,6 +345,19 @@ namespace AttendanceRecorder
             }
             fillRemQty();
             runningOut();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            EmployeeProfile p = new EmployeeProfile(EmployeeID);
+            p.Show();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
+            this.Close();
         }
     }
 }

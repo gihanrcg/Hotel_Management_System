@@ -108,8 +108,8 @@ D:\ITP_Final_System\Manori\Dining\bin\Debug\Dining.exe
 D:\ITP_Final_System\Manori\Dining\bin\Debug\Dining.pdb
 D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.csprojResolveAssemblyReference.cache
 D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.Bill.resources
-D:\ITP_Final_System\Manori\Dining\obj\Debug\insert.Form.resources
 D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.Properties.Resources.resources
 D:\ITP_Final_System\Manori\Dining\obj\Debug\Dining.csproj.GenerateResource.Cache
 D:\ITP_Final_System\Manori\Dining\obj\Debug\RdlCompile.cache
 D:\ITP_Final_System\Manori\Dining\obj\Debug\RdlCompile.compiled
+D:\ITP_Final_System\Manori\Dining\obj\Debug\AttendanceRecorder.frmDining.resources

@@ -41,7 +41,6 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.Chang
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ChatRoom.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeIDPrint.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeNotifications.resources
-D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.GenerateQuotaions.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageDrinks.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageEmployeePositions.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeProfile.resources
@@ -113,3 +112,8 @@ D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecord
 D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\admin Functions.csproj.GenerateResource.Cache
 D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\RdlCompile.cache
 D:\ITP Final\Integrated-ITP\ITP-Gihan\admin Functions\obj\Debug\RdlCompile.compiled
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.customizeReport.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.FormPrint.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageBar.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManoriViewer.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.DasithReportViewer.resources

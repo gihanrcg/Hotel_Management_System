@@ -592,5 +592,11 @@ namespace AttendanceRecorder
             EmployeeProfile emp = new EmployeeProfile(this.EmployeeID);
             emp.Show();
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            DasithReportViewer r = new DasithReportViewer();
+            r.Show();
+        }
     }
 }

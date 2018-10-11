@@ -137,6 +137,17 @@
     <Compile Include="customizeReport.Designer.cs">
       <DependentUpon>customizeReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="DasithDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DasithDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DasithReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DasithReportViewer.Designer.cs">
+      <DependentUpon>DasithReportViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="EmployeeIDPrint.cs">
       <SubType>Form</SubType>
@@ -178,6 +189,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hotelDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
@@ -228,12 +244,11 @@
     <Compile Include="ManageRooms.Designer.cs">
       <DependentUpon>ManageRooms.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManoriBill.cs" />
-    <Compile Include="ManoriBillViewer.cs">
+    <Compile Include="ManoriViewer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManoriBillViewer.Designer.cs">
-      <DependentUpon>ManoriBillViewer.cs</DependentUpon>
+    <Compile Include="ManoriViewer.Designer.cs">
+      <DependentUpon>ManoriViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -280,7 +295,10 @@
     <EmbeddedResource Include="customizeReport.resx">
       <DependentUpon>customizeReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DininBill.rdlc" />
+    <EmbeddedResource Include="DasithReport.rdlc" />
+    <EmbeddedResource Include="DasithReportViewer.resx">
+      <DependentUpon>DasithReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeIDPrint.resx">
       <DependentUpon>EmployeeIDPrint.cs</DependentUpon>
     </EmbeddedResource>
@@ -323,8 +341,9 @@
     <EmbeddedResource Include="ManageRooms.resx">
       <DependentUpon>ManageRooms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManoriBillViewer.resx">
-      <DependentUpon>ManoriBillViewer.cs</DependentUpon>
+    <EmbeddedResource Include="ManoriBill.rdlc" />
+    <EmbeddedResource Include="ManoriViewer.resx">
+      <DependentUpon>ManoriViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -360,6 +379,17 @@
     <None Include="billdataset.xss">
       <DependentUpon>billdataset.xsd</DependentUpon>
     </None>
+    <None Include="DasithDataSet.xsc">
+      <DependentUpon>DasithDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DasithDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DasithDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DasithDataSet.xss">
+      <DependentUpon>DasithDataSet.xsd</DependentUpon>
+    </None>
     <None Include="hotelDataSet.xsc">
       <DependentUpon>hotelDataSet.xsd</DependentUpon>
     </None>
@@ -370,6 +400,17 @@
     </None>
     <None Include="hotelDataSet.xss">
       <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet1.xsc">
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hotelDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hotelDataSet1.xss">
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

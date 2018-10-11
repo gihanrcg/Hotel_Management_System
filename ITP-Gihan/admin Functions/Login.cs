@@ -75,6 +75,12 @@ namespace AttendanceRecorder
                                     bar.Show();
                                     this.Hide();
                                 }
+                                else if (jobRole.Equals("Waiter"))
+                                {
+                                    frmInventory f = new frmInventory(txtEmployeeID.Text);
+                                    f.Show();
+                                    this.Hide();
+                                }
                             }
                             else
                             {

@@ -48,6 +48,9 @@
             this.cmbUnit = new System.Windows.Forms.ComboBox();
             this.nudQty = new System.Windows.Forms.NumericUpDown();
             this.pnlUpdateInventory = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.nudAddorDeduct = new System.Windows.Forms.NumericUpDown();
+            this.btnConfirmDeduct = new System.Windows.Forms.Button();
             this.lblItemCount = new System.Windows.Forms.Label();
             this.btnConfirmUpdate = new System.Windows.Forms.Button();
             this.nudQtyUpdate = new System.Windows.Forms.NumericUpDown();
@@ -67,19 +70,18 @@
             this.lblRunningItems = new System.Windows.Forms.Label();
             this.dtgRunningOut = new System.Windows.Forms.DataGridView();
             this.lblRunningOut = new System.Windows.Forms.Label();
-            this.btnConfirmDeduct = new System.Windows.Forms.Button();
-            this.nudAddorDeduct = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.pnlViewInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgInventory)).BeginInit();
             this.pnlInsertInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQty)).BeginInit();
             this.pnlUpdateInventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAddorDeduct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudQtyUpdate)).BeginInit();
             this.pnlCover.SuspendLayout();
             this.pnlRunningOut.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRunningOut)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudAddorDeduct)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlViewInventory
@@ -315,6 +317,43 @@
             this.pnlUpdateInventory.TabIndex = 11;
             this.pnlUpdateInventory.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlUpdateInventory_Paint);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(109, 378);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(241, 23);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Add/Deduct Quantity";
+            // 
+            // nudAddorDeduct
+            // 
+            this.nudAddorDeduct.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudAddorDeduct.Location = new System.Drawing.Point(589, 375);
+            this.nudAddorDeduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudAddorDeduct.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.nudAddorDeduct.Name = "nudAddorDeduct";
+            this.nudAddorDeduct.Size = new System.Drawing.Size(283, 26);
+            this.nudAddorDeduct.TabIndex = 13;
+            // 
+            // btnConfirmDeduct
+            // 
+            this.btnConfirmDeduct.BackColor = System.Drawing.Color.DimGray;
+            this.btnConfirmDeduct.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmDeduct.Location = new System.Drawing.Point(468, 456);
+            this.btnConfirmDeduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnConfirmDeduct.Name = "btnConfirmDeduct";
+            this.btnConfirmDeduct.Size = new System.Drawing.Size(196, 101);
+            this.btnConfirmDeduct.TabIndex = 12;
+            this.btnConfirmDeduct.Text = "Deduct";
+            this.btnConfirmDeduct.UseVisualStyleBackColor = false;
+            this.btnConfirmDeduct.Click += new System.EventHandler(this.btnConfirmDeduct_Click);
+            // 
             // lblItemCount
             // 
             this.lblItemCount.AutoSize = true;
@@ -525,49 +564,34 @@
             this.lblRunningOut.TabIndex = 0;
             this.lblRunningOut.Text = "Running Out";
             // 
-            // btnConfirmDeduct
+            // btnProfile
             // 
-            this.btnConfirmDeduct.BackColor = System.Drawing.Color.DimGray;
-            this.btnConfirmDeduct.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmDeduct.Location = new System.Drawing.Point(468, 456);
-            this.btnConfirmDeduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnConfirmDeduct.Name = "btnConfirmDeduct";
-            this.btnConfirmDeduct.Size = new System.Drawing.Size(196, 101);
-            this.btnConfirmDeduct.TabIndex = 12;
-            this.btnConfirmDeduct.Text = "Deduct";
-            this.btnConfirmDeduct.UseVisualStyleBackColor = false;
-            this.btnConfirmDeduct.Click += new System.EventHandler(this.btnConfirmDeduct_Click);
+            this.btnProfile.Location = new System.Drawing.Point(1076, 689);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(154, 49);
+            this.btnProfile.TabIndex = 17;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.UseVisualStyleBackColor = true;
+            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
-            // nudAddorDeduct
+            // btnLogout
             // 
-            this.nudAddorDeduct.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudAddorDeduct.Location = new System.Drawing.Point(589, 375);
-            this.nudAddorDeduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.nudAddorDeduct.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.nudAddorDeduct.Name = "nudAddorDeduct";
-            this.nudAddorDeduct.Size = new System.Drawing.Size(283, 26);
-            this.nudAddorDeduct.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(109, 378);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(241, 23);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Add/Deduct Quantity";
+            this.btnLogout.Location = new System.Drawing.Point(1237, 689);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(162, 49);
+            this.btnLogout.TabIndex = 18;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // frmInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1436, 673);
+            this.ClientSize = new System.Drawing.Size(1436, 750);
+            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnProfile);
             this.Controls.Add(this.btnRunningOut);
             this.Controls.Add(this.btnInsertItems);
             this.Controls.Add(this.btnUpdateItems);
@@ -589,13 +613,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudQty)).EndInit();
             this.pnlUpdateInventory.ResumeLayout(false);
             this.pnlUpdateInventory.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAddorDeduct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudQtyUpdate)).EndInit();
             this.pnlCover.ResumeLayout(false);
             this.pnlCover.PerformLayout();
             this.pnlRunningOut.ResumeLayout(false);
             this.pnlRunningOut.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRunningOut)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudAddorDeduct)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -643,5 +667,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown nudAddorDeduct;
         private System.Windows.Forms.Button btnConfirmDeduct;
+        private System.Windows.Forms.Button btnProfile;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

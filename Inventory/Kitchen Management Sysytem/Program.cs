@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kitchen_Management_Sysytem
+namespace AttendanceRecorder
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Kitchen_Management_Sysytem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenu());
+            Application.Run(new frmInventory());
         }
     }
 }

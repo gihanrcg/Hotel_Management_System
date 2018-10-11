@@ -197,3 +197,13 @@ E:\gitclone1\newHotel\obj\Debug\newHotel.pdb
 E:\gitclone1\newHotel\obj\Debug\newHotel.customizeReport.resources
 E:\gitclone1\newHotel\obj\Debug\newHotel.FormPrint.resources
 E:\gitclone1\newHotel\obj\Debug\newHotel.frmReceptionist.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\newHotel.csprojResolveAssemblyReference.cache
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\newHotel.csproj.newHotel.exe.config
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\AttendanceRecorder.availabil.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\AttendanceRecorder.customizeReport.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\AttendanceRecorder.frmReceptionist.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\AttendanceRecorder.FormPrint.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\AttendanceRecorder.reportTestGihan.resources
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\newHotel.csproj.GenerateResource.Cache
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\newHotel.exe
+D:\ITP_Final_System\Tharindu\newHotel\obj\Debug\newHotel.pdb

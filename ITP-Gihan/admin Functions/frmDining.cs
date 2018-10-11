@@ -621,9 +621,9 @@ namespace AttendanceRecorder
             //bill b = new bill();
             //b.show();
 
-     
 
-            ManoriBillViewer bv = new ManoriBillViewer(lblTotal.Text);
+
+            ManoriViewer bv = new ManoriViewer(lblTotal.Text);
             bv.Show();
 
 
@@ -676,6 +676,7 @@ namespace AttendanceRecorder
                 refresh();
 
             }
+            lblTotal.Text = "";
             retrieve();
 
         }

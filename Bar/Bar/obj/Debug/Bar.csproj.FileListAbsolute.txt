@@ -11,3 +11,11 @@ C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.exe
 C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.pdb
 C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.ReportView.resources
 C:\Users\Dasith\documents\visual studio 2013\Projects\Bar\Bar\obj\Debug\Bar.StockReportViewer.resources
+D:\ITP_Final_System\Bar\Bar\obj\Debug\Bar.csprojResolveAssemblyReference.cache
+D:\ITP_Final_System\Bar\Bar\obj\Debug\AttendanceRecorder.frmBar.resources
+D:\ITP_Final_System\Bar\Bar\obj\Debug\AttendanceRecorder.Properties.Resources.resources
+D:\ITP_Final_System\Bar\Bar\obj\Debug\AttendanceRecorder.ReportView.resources
+D:\ITP_Final_System\Bar\Bar\obj\Debug\AttendanceRecorder.StockReportViewer.resources
+D:\ITP_Final_System\Bar\Bar\obj\Debug\Bar.csproj.GenerateResource.Cache
+D:\ITP_Final_System\Bar\Bar\obj\Debug\Bar.exe
+D:\ITP_Final_System\Bar\Bar\obj\Debug\Bar.pdb

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kitchen_Management_Sysytem
+namespace AttendanceRecorder
 {
     public partial class frmMenu : Form
     {
@@ -28,14 +28,12 @@ namespace Kitchen_Management_Sysytem
 
         private void btnOrderFood_Click(object sender, EventArgs e)
         {
-
-            pnlOrderFood.BringToFront();
-            //pnlFoodMenu.Visible = false;
-            //txtCustId.Clear();
-            //pnlOrderFood.Visible = true;
+            pnlFoodMenu.Visible = false;
+            txtCustId.Clear();
+            pnlOrderFood.Visible = true;
             displayMenu();
             displayMenuID();
-            
+
         }
 
         private void btnDisplayMenu_Click(object sender, EventArgs e)
@@ -47,11 +45,10 @@ namespace Kitchen_Management_Sysytem
 
         public void displayMenuID()
         {
-            string slctName = "SELECT Menu_ID FROM menu_items WHERE Item = '" + cmbMenu.SelectedItem.ToString() + "'";
             DBConnect db = new DBConnect();
             cmd = db.con.CreateCommand();
             //MessageBox.Show(cmbItemName.SelectedItem.ToString());
-            
+            string slctName = "SELECT Menu_ID FROM menu_items WHERE Item = '" + cmbMenu.SelectedItem.ToString() + "'";
             cmd = new MySqlCommand(slctName, db.con);
             MySqlDataReader dr;
             try
@@ -139,14 +136,14 @@ namespace Kitchen_Management_Sysytem
                         cmd = db.con.CreateCommand();
                         int qty = Convert.ToInt32(Math.Round(nudQtyOrder.Value, 0));
                         float pricePerPortion = Convert.ToInt32(txtPricePerPortion.Text);
-                        float totalPrice = qty * pricePerPortion;               
+                        float totalPrice = qty * pricePerPortion;
 
                         String ins = "INSERT INTO order_items(Customer_ID,Menu_ID,Item,Portion,Price_Per_Portion,QTY,Total_Price,Time) VALUES ('" + txtCustId.Text + "','" + txtMenuId.Text + "','" + cmbMenu.Text + "','" + cmbPortion.Text + "','" + pricePerPortion + "','" + qty + "','" + totalPrice + "','" + curTime + "')";
                         cmd = new MySqlCommand(ins, db.con);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Order Placed");
                         db.con.Close();
-                        
+
                     }
                     catch (Exception ex)
                     {
