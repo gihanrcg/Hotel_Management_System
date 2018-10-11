@@ -41,7 +41,6 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.Chang
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ChatRoom.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeIDPrint.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeNotifications.resources
-D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.GenerateQuotaions.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageDrinks.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageEmployeePositions.resources
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.EmployeeProfile.resources
@@ -72,3 +71,6 @@ D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.dll
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\CircularProgressBar.xml
 D:\ITP_Final_System\ITP-Gihan\admin Functions\bin\Debug\WinFormAnimation.xml
 D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.frmBar.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.customizeReport.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.FormPrint.resources
+D:\ITP_Final_System\ITP-Gihan\admin Functions\obj\Debug\AttendanceRecorder.ManageBar.resources

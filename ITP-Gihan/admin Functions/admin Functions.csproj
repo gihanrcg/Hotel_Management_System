@@ -131,6 +131,12 @@
     <Compile Include="ChatRoom.Designer.cs">
       <DependentUpon>ChatRoom.cs</DependentUpon>
     </Compile>
+    <Compile Include="customizeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customizeReport.Designer.cs">
+      <DependentUpon>customizeReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="EmployeeIDPrint.cs">
       <SubType>Form</SubType>
@@ -143,6 +149,12 @@
     </Compile>
     <Compile Include="EmployeeNotifications.Designer.cs">
       <DependentUpon>EmployeeNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrint.Designer.cs">
+      <DependentUpon>FormPrint.cs</DependentUpon>
     </Compile>
     <Compile Include="frmBar.cs">
       <SubType>Form</SubType>
@@ -162,27 +174,17 @@
     <Compile Include="frmReceptionist.Designer.cs">
       <DependentUpon>frmReceptionist.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerateQuotaions.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GenerateQuotaions.Designer.cs">
-      <DependentUpon>GenerateQuotaions.cs</DependentUpon>
-    </Compile>
-    <Compile Include="hotelDAtaSet.Designer.cs">
-      <DependentUpon>hotelDataSet.xsd</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="hotelDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>hotelDataSet3.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inventory.Designer.cs">
       <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageBar.Designer.cs">
+      <DependentUpon>ManageBar.cs</DependentUpon>
     </Compile>
     <Compile Include="ManageDrinks.cs">
       <SubType>Form</SubType>
@@ -263,11 +265,17 @@
     <EmbeddedResource Include="ChatRoom.resx">
       <DependentUpon>ChatRoom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="customizeReport.resx">
+      <DependentUpon>customizeReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeIDPrint.resx">
       <DependentUpon>EmployeeIDPrint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeNotifications.resx">
       <DependentUpon>EmployeeNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrint.resx">
+      <DependentUpon>FormPrint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBar.resx">
       <DependentUpon>frmBar.cs</DependentUpon>
@@ -278,11 +286,11 @@
     <EmbeddedResource Include="frmReceptionist.resx">
       <DependentUpon>frmReceptionist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GenerateQuotaions.resx">
-      <DependentUpon>GenerateQuotaions.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageBar.resx">
+      <DependentUpon>ManageBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageDrinks.resx">
       <DependentUpon>ManageDrinks.cs</DependentUpon>
@@ -335,27 +343,6 @@
     </None>
     <None Include="billdataset.xss">
       <DependentUpon>billdataset.xsd</DependentUpon>
-    </None>
-    <None Include="hotelDataSet.xsc">
-      <DependentUpon>hotelDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="hotelDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hotelDAtaSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="hotelDataSet.xss">
-      <DependentUpon>hotelDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="hotelDataSet3.xsc">
-      <DependentUpon>hotelDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="hotelDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>hotelDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="hotelDataSet3.xss">
-      <DependentUpon>hotelDataSet3.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

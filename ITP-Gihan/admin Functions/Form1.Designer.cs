@@ -33,7 +33,16 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlManageEmployee = new System.Windows.Forms.Panel();
+            this.metroButton2 = new System.Windows.Forms.Button();
+            this.btnUploadPhoto = new System.Windows.Forms.Button();
+            this.btnRemoveEmployee = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnScan1 = new System.Windows.Forms.Button();
+            this.btnUpdateEmployee = new System.Windows.Forms.Button();
+            this.btnAddEmployee = new System.Windows.Forms.Button();
             this.txtpicpath = new System.Windows.Forms.TextBox();
+            this.picEmployeePicture = new System.Windows.Forms.PictureBox();
             this.txtEmployeeID = new System.Windows.Forms.TextBox();
             this.comboJobRole = new MetroFramework.Controls.MetroComboBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -117,15 +126,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.metroButton2 = new System.Windows.Forms.Button();
-            this.btnUploadPhoto = new System.Windows.Forms.Button();
-            this.btnRemoveEmployee = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnScan1 = new System.Windows.Forms.Button();
-            this.btnUpdateEmployee = new System.Windows.Forms.Button();
-            this.btnAddEmployee = new System.Windows.Forms.Button();
-            this.picEmployeePicture = new System.Windows.Forms.PictureBox();
             this.pnlWelcome = new System.Windows.Forms.Panel();
             this.imgNotification = new System.Windows.Forms.PictureBox();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -135,13 +135,13 @@
             this.btnBarManagement = new System.Windows.Forms.Button();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
             this.pnlManageEmployee.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEmployeePicture)).BeginInit();
             this.pnlEmployeeAttendance.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.pnlViewDetailsofCustomers.SuspendLayout();
             this.pnlLeaveRequests.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLeaverequests)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picEmployeePicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgNotification)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,6 +181,126 @@
             this.pnlManageEmployee.Size = new System.Drawing.Size(1359, 817);
             this.pnlManageEmployee.TabIndex = 0;
             // 
+            // metroButton2
+            // 
+            this.metroButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroButton2.ForeColor = System.Drawing.Color.Black;
+            this.metroButton2.Image = global::AttendanceRecorder.Properties.Resources.icons8_contact_filled_30;
+            this.metroButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.metroButton2.Location = new System.Drawing.Point(993, 448);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(240, 53);
+            this.metroButton2.TabIndex = 41;
+            this.metroButton2.Text = "Generate ID";
+            this.metroButton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.metroButton2.UseVisualStyleBackColor = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
+            // 
+            // btnUploadPhoto
+            // 
+            this.btnUploadPhoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUploadPhoto.ForeColor = System.Drawing.Color.Black;
+            this.btnUploadPhoto.Image = global::AttendanceRecorder.Properties.Resources.icons8_upload_30;
+            this.btnUploadPhoto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUploadPhoto.Location = new System.Drawing.Point(993, 389);
+            this.btnUploadPhoto.Name = "btnUploadPhoto";
+            this.btnUploadPhoto.Size = new System.Drawing.Size(240, 53);
+            this.btnUploadPhoto.TabIndex = 41;
+            this.btnUploadPhoto.Text = "Upload Image";
+            this.btnUploadPhoto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUploadPhoto.UseVisualStyleBackColor = true;
+            this.btnUploadPhoto.Click += new System.EventHandler(this.btnUploadPhoto_Click);
+            // 
+            // btnRemoveEmployee
+            // 
+            this.btnRemoveEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemoveEmployee.ForeColor = System.Drawing.Color.Black;
+            this.btnRemoveEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_trash_30;
+            this.btnRemoveEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRemoveEmployee.Location = new System.Drawing.Point(717, 637);
+            this.btnRemoveEmployee.Name = "btnRemoveEmployee";
+            this.btnRemoveEmployee.Size = new System.Drawing.Size(257, 53);
+            this.btnRemoveEmployee.TabIndex = 41;
+            this.btnRemoveEmployee.Text = "Remove Employee";
+            this.btnRemoveEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRemoveEmployee.UseVisualStyleBackColor = true;
+            this.btnRemoveEmployee.Click += new System.EventHandler(this.btnRemoveEmployee_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.Black;
+            this.btnClear.Image = global::AttendanceRecorder.Properties.Resources.icons8_clear_symbol_30;
+            this.btnClear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClear.Location = new System.Drawing.Point(1159, 71);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(134, 53);
+            this.btnClear.TabIndex = 41;
+            this.btnClear.Text = "Clear";
+            this.btnClear.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.Image = global::AttendanceRecorder.Properties.Resources.icons8_search_30;
+            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSearch.Location = new System.Drawing.Point(1020, 71);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(133, 53);
+            this.btnSearch.TabIndex = 41;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // btnScan1
+            // 
+            this.btnScan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScan1.ForeColor = System.Drawing.Color.Black;
+            this.btnScan1.Image = global::AttendanceRecorder.Properties.Resources.icons8_barcode_scanner_30__1_;
+            this.btnScan1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnScan1.Location = new System.Drawing.Point(718, 71);
+            this.btnScan1.Name = "btnScan1";
+            this.btnScan1.Size = new System.Drawing.Size(257, 53);
+            this.btnScan1.TabIndex = 41;
+            this.btnScan1.Text = "Scan Employee ID";
+            this.btnScan1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnScan1.UseVisualStyleBackColor = true;
+            this.btnScan1.Click += new System.EventHandler(this.btnScan_Click);
+            // 
+            // btnUpdateEmployee
+            // 
+            this.btnUpdateEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateEmployee.ForeColor = System.Drawing.Color.Black;
+            this.btnUpdateEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_update_30;
+            this.btnUpdateEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUpdateEmployee.Location = new System.Drawing.Point(459, 637);
+            this.btnUpdateEmployee.Name = "btnUpdateEmployee";
+            this.btnUpdateEmployee.Size = new System.Drawing.Size(254, 53);
+            this.btnUpdateEmployee.TabIndex = 41;
+            this.btnUpdateEmployee.Text = "Update Employee";
+            this.btnUpdateEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUpdateEmployee.UseVisualStyleBackColor = true;
+            this.btnUpdateEmployee.Click += new System.EventHandler(this.btnUpdateEmployee_Click);
+            // 
+            // btnAddEmployee
+            // 
+            this.btnAddEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddEmployee.ForeColor = System.Drawing.Color.Black;
+            this.btnAddEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_plus_30;
+            this.btnAddEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddEmployee.Location = new System.Drawing.Point(234, 637);
+            this.btnAddEmployee.Name = "btnAddEmployee";
+            this.btnAddEmployee.Size = new System.Drawing.Size(221, 53);
+            this.btnAddEmployee.TabIndex = 41;
+            this.btnAddEmployee.Text = "Add Employee";
+            this.btnAddEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAddEmployee.UseVisualStyleBackColor = true;
+            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
+            // 
             // txtpicpath
             // 
             this.txtpicpath.Location = new System.Drawing.Point(964, 351);
@@ -189,6 +309,16 @@
             this.txtpicpath.ReadOnly = true;
             this.txtpicpath.Size = new System.Drawing.Size(291, 22);
             this.txtpicpath.TabIndex = 38;
+            // 
+            // picEmployeePicture
+            // 
+            this.picEmployeePicture.Location = new System.Drawing.Point(1032, 155);
+            this.picEmployeePicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picEmployeePicture.Name = "picEmployeePicture";
+            this.picEmployeePicture.Size = new System.Drawing.Size(152, 178);
+            this.picEmployeePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picEmployeePicture.TabIndex = 37;
+            this.picEmployeePicture.TabStop = false;
             // 
             // txtEmployeeID
             // 
@@ -536,7 +666,7 @@
             // 
             this.txttoDate.Location = new System.Drawing.Point(703, 96);
             this.txttoDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txttoDate.MinimumSize = new System.Drawing.Size(0, 30);
+            this.txttoDate.MinimumSize = new System.Drawing.Size(4, 30);
             this.txttoDate.Name = "txttoDate";
             this.txttoDate.Size = new System.Drawing.Size(321, 30);
             this.txttoDate.TabIndex = 39;
@@ -556,7 +686,7 @@
             // 
             this.txtFromDate.Location = new System.Drawing.Point(213, 94);
             this.txtFromDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtFromDate.MinimumSize = new System.Drawing.Size(0, 30);
+            this.txtFromDate.MinimumSize = new System.Drawing.Size(4, 30);
             this.txtFromDate.Name = "txtFromDate";
             this.txtFromDate.Size = new System.Drawing.Size(321, 30);
             this.txtFromDate.TabIndex = 37;
@@ -690,7 +820,7 @@
             // 
             this.metroDateTime4.Location = new System.Drawing.Point(741, 118);
             this.metroDateTime4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metroDateTime4.MinimumSize = new System.Drawing.Size(0, 30);
+            this.metroDateTime4.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTime4.Name = "metroDateTime4";
             this.metroDateTime4.Size = new System.Drawing.Size(305, 30);
             this.metroDateTime4.TabIndex = 51;
@@ -710,7 +840,7 @@
             // 
             this.metroDateTime5.Location = new System.Drawing.Point(227, 116);
             this.metroDateTime5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metroDateTime5.MinimumSize = new System.Drawing.Size(0, 30);
+            this.metroDateTime5.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTime5.Name = "metroDateTime5";
             this.metroDateTime5.Size = new System.Drawing.Size(305, 30);
             this.metroDateTime5.TabIndex = 49;
@@ -1248,7 +1378,7 @@
             this.button7.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.button7.Size = new System.Drawing.Size(360, 82);
             this.button7.TabIndex = 60;
-            this.button7.Text = "ex";
+            this.button7.Text = "Manage Bar Details";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -1283,136 +1413,6 @@
             this.button9.TabIndex = 62;
             this.button9.Text = "ex";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // metroButton2
-            // 
-            this.metroButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.metroButton2.ForeColor = System.Drawing.Color.Black;
-            this.metroButton2.Image = global::AttendanceRecorder.Properties.Resources.icons8_contact_filled_30;
-            this.metroButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.metroButton2.Location = new System.Drawing.Point(993, 448);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(240, 53);
-            this.metroButton2.TabIndex = 41;
-            this.metroButton2.Text = "Generate ID";
-            this.metroButton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.metroButton2.UseVisualStyleBackColor = true;
-            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
-            // 
-            // btnUploadPhoto
-            // 
-            this.btnUploadPhoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUploadPhoto.ForeColor = System.Drawing.Color.Black;
-            this.btnUploadPhoto.Image = global::AttendanceRecorder.Properties.Resources.icons8_upload_30;
-            this.btnUploadPhoto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUploadPhoto.Location = new System.Drawing.Point(993, 389);
-            this.btnUploadPhoto.Name = "btnUploadPhoto";
-            this.btnUploadPhoto.Size = new System.Drawing.Size(240, 53);
-            this.btnUploadPhoto.TabIndex = 41;
-            this.btnUploadPhoto.Text = "Upload Image";
-            this.btnUploadPhoto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUploadPhoto.UseVisualStyleBackColor = true;
-            this.btnUploadPhoto.Click += new System.EventHandler(this.btnUploadPhoto_Click);
-            // 
-            // btnRemoveEmployee
-            // 
-            this.btnRemoveEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemoveEmployee.ForeColor = System.Drawing.Color.Black;
-            this.btnRemoveEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_trash_30;
-            this.btnRemoveEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRemoveEmployee.Location = new System.Drawing.Point(717, 637);
-            this.btnRemoveEmployee.Name = "btnRemoveEmployee";
-            this.btnRemoveEmployee.Size = new System.Drawing.Size(257, 53);
-            this.btnRemoveEmployee.TabIndex = 41;
-            this.btnRemoveEmployee.Text = "Remove Employee";
-            this.btnRemoveEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRemoveEmployee.UseVisualStyleBackColor = true;
-            this.btnRemoveEmployee.Click += new System.EventHandler(this.btnRemoveEmployee_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.Black;
-            this.btnClear.Image = global::AttendanceRecorder.Properties.Resources.icons8_clear_symbol_30;
-            this.btnClear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClear.Location = new System.Drawing.Point(1159, 71);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(134, 53);
-            this.btnClear.TabIndex = 41;
-            this.btnClear.Text = "Clear";
-            this.btnClear.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.ForeColor = System.Drawing.Color.Black;
-            this.btnSearch.Image = global::AttendanceRecorder.Properties.Resources.icons8_search_30;
-            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(1020, 71);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(133, 53);
-            this.btnSearch.TabIndex = 41;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
-            // btnScan1
-            // 
-            this.btnScan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScan1.ForeColor = System.Drawing.Color.Black;
-            this.btnScan1.Image = global::AttendanceRecorder.Properties.Resources.icons8_barcode_scanner_30__1_;
-            this.btnScan1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnScan1.Location = new System.Drawing.Point(718, 71);
-            this.btnScan1.Name = "btnScan1";
-            this.btnScan1.Size = new System.Drawing.Size(257, 53);
-            this.btnScan1.TabIndex = 41;
-            this.btnScan1.Text = "Scan Employee ID";
-            this.btnScan1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnScan1.UseVisualStyleBackColor = true;
-            this.btnScan1.Click += new System.EventHandler(this.btnScan_Click);
-            // 
-            // btnUpdateEmployee
-            // 
-            this.btnUpdateEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateEmployee.ForeColor = System.Drawing.Color.Black;
-            this.btnUpdateEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_update_30;
-            this.btnUpdateEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdateEmployee.Location = new System.Drawing.Point(459, 637);
-            this.btnUpdateEmployee.Name = "btnUpdateEmployee";
-            this.btnUpdateEmployee.Size = new System.Drawing.Size(254, 53);
-            this.btnUpdateEmployee.TabIndex = 41;
-            this.btnUpdateEmployee.Text = "Update Employee";
-            this.btnUpdateEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUpdateEmployee.UseVisualStyleBackColor = true;
-            this.btnUpdateEmployee.Click += new System.EventHandler(this.btnUpdateEmployee_Click);
-            // 
-            // btnAddEmployee
-            // 
-            this.btnAddEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddEmployee.ForeColor = System.Drawing.Color.Black;
-            this.btnAddEmployee.Image = global::AttendanceRecorder.Properties.Resources.icons8_plus_30;
-            this.btnAddEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddEmployee.Location = new System.Drawing.Point(234, 637);
-            this.btnAddEmployee.Name = "btnAddEmployee";
-            this.btnAddEmployee.Size = new System.Drawing.Size(221, 53);
-            this.btnAddEmployee.TabIndex = 41;
-            this.btnAddEmployee.Text = "Add Employee";
-            this.btnAddEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAddEmployee.UseVisualStyleBackColor = true;
-            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
-            // 
-            // picEmployeePicture
-            // 
-            this.picEmployeePicture.Location = new System.Drawing.Point(1032, 155);
-            this.picEmployeePicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picEmployeePicture.Name = "picEmployeePicture";
-            this.picEmployeePicture.Size = new System.Drawing.Size(152, 178);
-            this.picEmployeePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picEmployeePicture.TabIndex = 37;
-            this.picEmployeePicture.TabStop = false;
             // 
             // pnlWelcome
             // 
@@ -1585,6 +1585,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlManageEmployee.ResumeLayout(false);
             this.pnlManageEmployee.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEmployeePicture)).EndInit();
             this.pnlEmployeeAttendance.ResumeLayout(false);
             this.pnlEmployeeAttendance.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
@@ -1594,7 +1595,6 @@
             this.pnlLeaveRequests.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLeaverequests)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picEmployeePicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgNotification)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
