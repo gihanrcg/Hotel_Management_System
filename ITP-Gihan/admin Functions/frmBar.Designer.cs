@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBar));
             this.btnorder = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -51,6 +52,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.pnlStockHandle = new System.Windows.Forms.Panel();
+            this.btnReport = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.cmbVolume = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -105,7 +107,6 @@
             this.txtCusID = new System.Windows.Forms.TextBox();
             this.btnConfirmOrder = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.btnReport = new System.Windows.Forms.Button();
             this.pnlHome = new System.Windows.Forms.Panel();
             this.lblHome = new System.Windows.Forms.Label();
             this.pnlOrder.SuspendLayout();
@@ -418,6 +419,16 @@
             this.pnlStockHandle.Size = new System.Drawing.Size(1576, 954);
             this.pnlStockHandle.TabIndex = 8;
             this.pnlStockHandle.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlStockHandle_Paint);
+            // 
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(926, 204);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(183, 44);
+            this.btnReport.TabIndex = 13;
+            this.btnReport.Text = "View Report";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // label21
             // 
@@ -1026,17 +1037,22 @@
             // 
             this.dgvBill.AllowUserToAddRows = false;
             this.dgvBill.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
+            this.dgvBill.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvBill.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvBill.BackgroundColor = System.Drawing.Color.White;
             this.dgvBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBill.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBill.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvBill.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvBill.Location = new System.Drawing.Point(135, 132);
             this.dgvBill.Name = "dgvBill";
@@ -1083,16 +1099,6 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // btnReport
-            // 
-            this.btnReport.Location = new System.Drawing.Point(926, 204);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(183, 44);
-            this.btnReport.TabIndex = 13;
-            this.btnReport.Text = "View Report";
-            this.btnReport.UseVisualStyleBackColor = true;
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
-            // 
             // pnlHome
             // 
             this.pnlHome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHome.BackgroundImage")));
@@ -1122,8 +1128,8 @@
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(1942, 1102);
             this.ControlBox = false;
-            this.Controls.Add(this.pnlStockHandle);
             this.Controls.Add(this.pnlConfirmOrder);
+            this.Controls.Add(this.pnlStockHandle);
             this.Controls.Add(this.pnlAddItems);
             this.Controls.Add(this.pnlLiquor);
             this.Controls.Add(this.pnlbev);

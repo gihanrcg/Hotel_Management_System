@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReceptionist));
             this.pnlNavigation = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.btnGeneratequotation = new System.Windows.Forms.Button();
             this.btnHallDetails = new System.Windows.Forms.Button();
             this.btnAvailability = new System.Windows.Forms.Button();
@@ -137,7 +136,6 @@
             // pnlNavigation
             // 
             this.pnlNavigation.BackColor = System.Drawing.Color.Teal;
-            this.pnlNavigation.Controls.Add(this.button4);
             this.pnlNavigation.Controls.Add(this.btnGeneratequotation);
             this.pnlNavigation.Controls.Add(this.btnHallDetails);
             this.pnlNavigation.Controls.Add(this.btnAvailability);
@@ -151,16 +149,6 @@
             this.pnlNavigation.Name = "pnlNavigation";
             this.pnlNavigation.Size = new System.Drawing.Size(1330, 124);
             this.pnlNavigation.TabIndex = 0;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(926, 96);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnGeneratequotation
             // 
@@ -1267,7 +1255,6 @@
         private System.Windows.Forms.Button btnCustomizeReport;
         private System.Windows.Forms.Button btnHallQReport;
         private System.Windows.Forms.Button btnRoomQReport;
-        private System.Windows.Forms.Button button4;
     }
 }
 

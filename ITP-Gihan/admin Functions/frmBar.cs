@@ -460,6 +460,8 @@ namespace AttendanceRecorder
 
         private void button4_Click(object sender, EventArgs e)
         {
+
+           
             pnlConfirmOrder.BringToFront();
             txtCusID.Focus();
         }

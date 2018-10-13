@@ -11,3 +11,6 @@ C:\Users\KAKU\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\Win
 C:\Users\KAKU\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\KAKU\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
 C:\Users\KAKU\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\EmployeeFunctions.csprojResolveAssemblyReference.cache
+D:\ITP_Final_System\Kasun\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\ITP_Final_System\Kasun\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\ITP_Final_System\Kasun\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

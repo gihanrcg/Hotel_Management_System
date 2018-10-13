@@ -383,7 +383,7 @@ namespace AttendanceRecorder
                 {
                     DBConnect db = new DBConnect();
 
-                    String q = "insert into emp_salary(id,basicSalary,etf,epf,leaves,ot,bonus,totDeduction,totEarn,netpay,paydate) values ('" + txtEmpID.Text + "','" + txtBasicSal.Text + "','" + txtETF.Text + "','" + txtEPF.Text + "','" + txtLeaves.Text + "','" + txtOT.Text + "','" + txtTotDeduction.Text + "','" + txtTotEarn.Text + "','" + txtNetSal.Text + "','" + lblPaydate.Text + "')";
+                    String q = "insert into emp_salary(id,basicSalary,etf,epf,leaves,ot,totDeduction,totEarn,netpay,paydate) values ('" + txtEmpID.Text + "','" + txtBasicSal.Text + "','" + txtETF.Text + "','" + txtEPF.Text + "','" + txtLeaves.Text + "','" + txtOT.Text + "','" + txtTotDeduction.Text + "','" + txtTotEarn.Text + "','" + txtNetSal.Text + "','" + lblPaydate.Text + "')";
                     MySqlCommand cmd = new MySqlCommand(q, db.con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Deducted", "Done !!!", MessageBoxButtons.OK, MessageBoxIcon.Information);

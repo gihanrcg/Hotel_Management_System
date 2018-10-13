@@ -918,5 +918,28 @@ namespace AttendanceRecorder
             gv.Show();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            RetrieveCustomers();
+        }
+        private void RetrieveCustomers()
+        {
+
+            DBConnect db = new DBConnect();
+            MySqlCommand cmd = db.con.CreateCommand();
+            cmd.CommandText = "SELECT `cusId` as 'CustomerID', `MrMs`, `f_name` as 'First Name', `l_name` as 'Last Name', `gender` as 'Gender', `nic_pass` as 'NIC', `address` as 'Address', `mobile` as 'Mobile', `email` as 'Email' FROM `userbooking`";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            da.Fill(dt);
+            dgvCustomerDetails.DataSource = dt;
+        }
+
+        private void btnAttendence_Click(object sender, EventArgs e)
+        {
+            AttendenceRecorder at = new AttendenceRecorder();
+            at.Show();
+        }
+
     }
 }
